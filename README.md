@@ -1,6 +1,42 @@
-# Online-Payment-Fraud-Detection
--Designed and implemented a machine learning-based fraud detection system to identify suspicious payment 
-transactions in real-time.-Utilized classification algorithms such as Logistic Regression and Random Forest for supervised learning and clustering 
-algorithms like K-Means for unsupervised anomaly detection.-Processed and analyzed large-scale transaction datasets using Python (pandas, NumPy) to identify fraudulent behavior 
-patterns.-Built and deployed a scalable system with REST APIs using Flask integrated with TensorFlow/Scikit-learn models.-Achieved a fraud detection accuracy of 99% while minimizing false positives through hyperparameter tuning and 
-cross-validation
+# 💳 Online Payment Fraud Detection using Machine Learning
+
+This project aims to build a predictive model that can detect fraudulent online payment transactions by analyzing user behavior and transaction patterns.
+
+
+## 📌 Project Overview
+
+Fraud detection in online payments is critical for secure financial transactions. This project uses supervised machine learning techniques to identify fraudulent activities based on transactional data.
+
+---
+
+## 🧰 Tools & Technologies Used
+
+- **Python**
+- **Pandas** – for data handling
+- **NumPy** – for numerical operations
+- **Scikit-learn** – ML models and preprocessing
+- **Matplotlib & Seaborn** – data visualization
+- **SMOTE** – to handle imbalanced datasets
+
+---
+
+## 📂 Dataset Features
+
+- `Transaction ID`
+- `Amount`
+- `Transaction Type`
+- `User Age`
+- `Device Type`
+- `Transaction Time`
+- `Is_Fraud` (Target variable)
+
+> *(Note: Please update with actual features if different)*
+
+---
+
+## ⚙️ How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/santoshreddymallu/Online-Payment-Fraud-Detection
+   cd Online-Payment-Fraud-Detection
