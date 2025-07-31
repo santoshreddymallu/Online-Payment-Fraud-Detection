@@ -7,32 +7,27 @@ This project aims to build a predictive model that can detect fraudulent online 
 
 Fraud detection in online payments is critical for secure financial transactions. This project uses supervised machine learning techniques to identify fraudulent activities based on transactional data.
 
----
 
 ## 🧰 Tools & Technologies Used
 
-- **Python**
-- **Pandas** – for data handling
-- **NumPy** – for numerical operations
-- **Scikit-learn** – ML models and preprocessing
-- **Matplotlib & Seaborn** – data visualization
-- **SMOTE** – to handle imbalanced datasets
+Python
+Pandas – for data handling
+NumPy – for numerical operations
+Scikit-learn – ML models and preprocessing
+Matplotlib & Seaborn – data visualization
+SMOTE – to handle imbalanced datasets
 
----
 
 ## 📂 Dataset Features
 
-- `Transaction ID`
-- `Amount`
-- `Transaction Type`
-- `User Age`
-- `Device Type`
-- `Transaction Time`
-- `Is_Fraud` (Target variable)
+- Transaction ID
+- Amount
+- Transaction Type
+- User Age
+- Device Type
+- Transaction Time
+- Is_Fraud(Target variable)
 
-> *(Note: Please update with actual features if different)*
-
----
 
 ## ⚙️ How to Run
 
